@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../general/css.css" />
+    <link rel="stylesheet" type="text/css" href="personaggi_css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="personaggi_css.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+    </style>
+    <title>ETHERIA</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+    />
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+    ></script>
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+<!-- navbar -->
+
+<a class="navbar-brand" id="logo1" href="../1_home/index.html">
+    <img src="./img/logo.png" class="centered-image" alt=""
+    /></a>
+
+<nav class="navbar sticky-top navbar-expand-lg">
+    <a href="../1_home/index.html"
+    ><img
+            src="./img/logo.png"
+            id="logo2"
+            class="centered-image"
+            alt=""
+    /></a>
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+            class="collapse navbar-links navbar-collapse"
+            id="navbarNavAltMarkup"
+    >
+        <div class="navbar-nav mt-2 mb-2">
+            <a class="mx-auto px-2 nav-link" href="../1_home/index.html">HOME</a>
+            <a class="mx-auto px-2 nav-link" href="../2_storia/storia.html">STORIA</a>
+            <a class="mx-auto px-2 nav-link" href="../3_quartieri/quartieri.html">QUARTIERI</a>
+            <a id="nav_pers" class="mx-auto px-2 nav-link" href="#">PERSONAGGI</a>
+            <a class="mx-auto px-2 nav-link" href="../5_festival/festival.html">FESTIVAL</a>
+            <a class="mx-auto px-2 nav-link" href="../6_contatti/contatti.html">ABOUT US</a>
+        </div>
+    </div>
+</nav>
+
+<div id="first-image-container" class="relative">
+    <img class="first-desc-image" src="img/first_desc_image2.svg" alt=""/>
+    <img
+            class="first-desc-image-filter"
+            src="img/first_desc_image_filter.svg"
+            alt=""
+    />
+</div>
+<h1 id="title_pers" class="subtitle center-subtitle">Personaggi</h1>
+    <div class="flex-row center-par relative" style="margin-top:2%; margin-bottom: 7%">
+        <p class="text text-col">
+            Benvenuti nella meravigliosa città di Etheria, un luogo incantevole
+            dove la magia si mescola con l'architettura futuristica, creando una
+            cornice unica al mondo. Etheria è divisa in quattro quartieri
+            distinti, ognuno con la propria personalità e atmosfera unica.
+            Scopriamo insieme questi affascinanti distretti.
+        </p>
+        <p class="text text-col">
+            Insieme, questi quartieri creano la città di Etheria, un luogo dove la
+            magia e la modernità si incontrano, offrendo un'esperienza unica e
+            indimenticabile a chiunque vi metta piede. Benvenuti in un mondo dove
+            ogni angolo nasconde un segreto incantevole e ogni strada è un viaggio
+            attraverso la magia e l'avventura.
+        </p>
+    </div>
+<br>
+    <div class="customHR no-mobile"></div>
+<br> <br> <br> <br>
+    <main>
+        <div class="par-selection center-par">
+            <div class="pers-selectable" id="re-gustavo">
+                <img
+                        src="./img/Re-gustavo-selectable.svg"
+                        alt=""
+                        class="pers-selectable-image no-mobile"
+                />
+                <img
+                        src="./img/Re_gustavo_mobile.svg"
+                        alt=""
+                        class="pers-selectable-image si-mobile"
+                />
+                <span class="label">RE GUSTAVO</span>
+            </div>
+
+            <div class="pers-selectable" id="cioccolatina">
+                <img
+                        src="./img/cioccolatina-selectable.svg"
+                        alt=""
+                        class="pers-selectable-image no-mobile"
+                />
+                <img
+                        src="./img/Cioccolatina_mobile.svg"
+                        alt=""
+                        class="pers-selectable-image si-mobile"
+                />
+                <span class="label">CIOCCOLATINA</span>
+            </div>
+            <div class="pers-selectable pers-selected" id="marina-la-sirena">
+                <img
+                        src="./img/sirena-selectable.svg"
+                        alt=""
+                        class="pers-selectable-image no-mobile"
+                />
+                <img
+                        src="./img/sirena_mobile.svg"
+                        alt=""
+                        class="pers-selectable-image si-mobile"
+                />
+                <span class="label">MARINA LA SIRENA</span>
+            </div>
+
+            <div class="pers-selectable" id="barone-dell-oro">
+                <img
+                        src="./img/barone-dell-oro-selectable.svg"
+                        alt=""
+                        class="pers-selectable-image no-mobile"
+                />
+                <img
+                        src="./img/Barone_dell_oro_mobile.svg"
+                        alt=""
+                        class="pers-selectable-image si-mobile"
+                />
+                <span class="label">BARONE DELL'ORO</span>
+            </div>
+            <div class="pers-selectable" id="maestro-eldron">
+                <img
+                        src="./img/maestro-eldron-selectable.svg"
+                        alt=""
+                        class="pers-selectable-image no-mobile"
+                />
+                <img
+                        src="./img/maestro_eldron_mobile.svg"
+                        alt=""
+                        class="pers-selectable-image si-mobile"
+                />
+                <span class="label">MAESTRO ELDRON</span>
+            </div>
+        </div>
+        <div class="persMain relative">
+            <img
+                    src="../general/img/ingranaggio.svg"
+                    alt=""
+                    class="ingranaggio-rotante"
+                    id="ingranaggio1"
+            />
+            <img
+                    src="../general/img/ingranaggio2.svg"
+                    alt=""
+                    class="ingranaggio-rotante"
+                    id="ingranaggio2"
+            />
+            <div
+                    class="invert-col-mobile center-par relative pers-container"
+                    id="marina-la-sirena-info"
+            >
+                <div class="pers-info">
+                    <h2 class="subtitle">MARINA LA SIRENA</h2>
+                    <p class="text">
+                        Marina, la sirena dall'incredibile voce incantevole, non solo è
+                        una creatura magica degli abissi, ma è anche la guida perfetta per
+                        esplorare il meraviglioso mondo marino. Conduce gli avventurieri
+                        in emozionanti gite in barca, immergendoli in un viaggio
+                        attraverso le acque misteriose e le storie leggendarie dei mari.
+                    </p>
+                    <p class="text">Quartiere: Dolce Marea</p>
+                </div>
+                <img
+                        class="image_pers no-mobile"
+                        src="img/Sirena_desktop.svg"
+                        width="40%"
+                        alt=""
+                />
+            </div>
+
+            <div
+                    class="center-par relative flex-row pers-container"
+                    id="maestro-eldron-info"
+            >
+                <div class="pers-info">
+                    <h2 class="subtitle">Maestro eldron</h2>
+                    <p class="text">
+                        Nel cuore della foresta incantata, dove i raggi del sole filtrano
+                        tra le fronde degli alberi antichi e il profumo di muschio e felci
+                        impregna l'aria, si trova il rifugio del Maestro Eldron. Con la
+                        sua lunga barba grigia che ondeggia al vento e gli occhi
+                        scintillanti di saggezza, Eldron è una figura leggendaria tra gli
+                        abitanti della foresta.
+                    </p>
+                    <p class="text">Quartiere: Foresta Incantata</p>
+                </div>
+
+                <img
+                        class="image_pers no-mobile"
+                        id="personaggi_image"
+                        src="img/Maestro_eldron_desktop.svg"
+                        width="40%"
+                        alt=""
+                />
+            </div>
+
+            <div
+                    class="center-par relative flex-row pers-container"
+                    id="re-gustavo-info"
+            >
+                <div class="pers-info">
+                    <h2 class="subtitle">RE GUSTAVO</h2>
+                    <p class="text">
+                        Con una corona di oro scintillante poggiata sulle chiome argente,
+                        il Re Gustavo incarna la maestosità e la nobiltà dei re antichi.
+                        Il suo sguardo, fiero e penetrante, riflette la sua determinazione
+                        nel proteggere il regno e nel guidare il suo popolo verso un
+                        futuro di prosperità e armonia.
+                    </p>
+                </div>
+
+                <img
+                        class="image_pers no-mobile"
+                        src="img/Re_gustavo_desktop.svg"
+                        width="40%"
+                        alt=""
+                />
+            </div>
+
+            <div
+                    class="center-par relative flex-row pers-container"
+                    id="barone-dell-oro-info"
+            >
+                <div class="pers-info">
+                    <h2 class="subtitle">barone dell'oro</h2>
+                    <p class="text">
+                        Il Barone dell'Oro è vestito con abiti sontuosi, tessuti con fili
+                        d'oro e gemme scintillanti che risplendono alla luce del sole.
+                        Ogni passo che compie è come il suono di monete d'oro che
+                        tintinnano, annunciando la sua presenza con maestosità e potenza.
+                    </p>
+
+                    <p class="text">Quartiere: Distretto Dorato</p>
+                </div>
+
+                <img
+                        class="image_pers no-mobile"
+                        src="./img/Barone_dell_oro_desktop.svg"
+                        width="40%"
+                        alt=""
+                />
+            </div>
+
+            <div
+                    class="center-par relative flex-row pers-container"
+                    id="cioccolatina-info"
+            >
+                <div class="pers-info">
+                    <h2 class="subtitle">cioccolatina</h2>
+                    <p class="text">
+                        Cioccolatina, la creatrice di meraviglie dolci che incantano il
+                        palato e scaldano il cuore di chiunque le assaggi. Con i capelli
+                        raccolti in un elegante chignon e gli occhi scintillanti di gioia,
+                        maestra nell'arte della cioccolateria. Le sue mani agili si
+                        muovono con grazia tra cioccolato fuso e zucchero a velo,
+                        trasformando ingredienti semplici in opere d'arte commestibili.
+                    </p>
+
+                    <p class="text">Quartiere: Castello goloso</p>
+                </div>
+
+                <img
+                        class="image_pers no-mobile"
+                        src="img/Cioccolatina_desktop.svg"
+                        width="40%"
+                        alt=""
+                />
+            </div>
+        </div>
+</main>
+
+<footer class="footer">
+    <img
+            src="./img/ingranaggio.svg"
+            alt=""
+            class="footer-ingranaggio"
+            id="footer-ingranaggio1"
+    />
+    <img
+            src="./img/ingranaggio.svg"
+            alt=""
+            class="footer-ingranaggio"
+            id="footer-ingranaggio2"
+    />
+
+    <div class="footer-side-left no-mobile">
+        <img src="./img/footerStar.png" alt="" id="footer_star" />
+        <div>
+            <div class="text footer-text">
+            <span
+            >Latitudine: <br />
+              35.7204</span
+            >
+            </div>
+            <br />
+            <div class="text footer-text">
+            <span
+            >Longitudine: <br />
+              -89.2131</span
+            >
+            </div>
+        </div>
+    </div>
+    <img
+            src="./img/logo.png"
+            id="logo-footer"
+            class="centered-image"
+            alt=""
+    />
+    <div class="footer-side-right">
+        <div class="top">
+            <a href="https://www.instagram.com" target="_blank"><img src="./img/instagramFooter.png" alt="" id="instagram_icon" /></a>
+            <a href="https://twitter.com" target="_blank"><img src="./img/xFooter.png" alt="" id="x_icon" /></a>
+        </div>
+        <div class="bottom text footer-text">
+          <span
+          >CONTATTACI A: <br />
+            teametheria@gmail.com</span
+          >
+        </div>
+        <div class="bottom"></div>
+    </div>
+</footer>
+
+<script src="personaggi.js"></script>
+<!-- Boostrap boundle with popper -->
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>

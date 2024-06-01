@@ -1,0 +1,168 @@
+#ingranaggio1{
+    right:-20%;
+    top:-20%;
+    width: 30%;
+}
+
+#ingranaggio2{
+    left:-20%;
+    bottom:10%;
+    width: 40%;
+}
+.first-desc-image-filter {
+    width: 100%;
+    position: absolute;
+    bottom: -8%;
+    left: 0;
+}
+#nav_pers{
+    transform: scale(1.3);
+}
+
+main {
+    transform: translateY(-10vw);
+}
+#title_pers{
+    position: relative;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    z-index: 2;
+}
+
+.pers-info {
+    width: 60%;
+}
+.pers-info .text {
+    width: 60%;
+    padding: 20px;
+}
+.pers-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#re-gustavo-info {
+    display: none;
+}
+#barone-dell-oro-info {
+    display: none;
+}
+#maestro-eldron-info {
+    display: none;
+}
+#cioccolatina-info {
+    display: none;
+}
+
+.par-selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.pers-selectable {
+    background-color: #012034;
+    height: 120px;
+    border: 4px solid #fcd963;
+    border-radius: 30px;
+    width: 20%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pers-selectable-image{
+    max-width: 100%;
+}
+.pers-selectable span {
+    display: inline;
+    text-align: center;
+}
+.pers-selectable img {
+    display: none !important;
+}
+.pers-selectable:hover {
+    border-color: #7f5713 !important;
+    cursor: pointer;
+}
+
+.par-selection .label {
+    font-weight: 800;
+}
+.pers-selected span {
+    display: none !important;
+}
+.pers-selected {
+    border: none !important;
+    background-color: transparent !important;
+    position: relative;
+}
+.pers-selected img.no-mobile {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: block !important;
+}
+
+.customHR {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    transform: translateY(-50px);
+}
+footer{
+    margin-top: 0 !important;
+}
+@media only screen and (max-width: 991px) {
+    .pers-container {
+        align-items: center;
+    }
+    .pers-info {
+        width: 100%;
+    }
+    .pers-info .text {
+        width: 100%;
+        padding: 20px;
+    }
+    .par-selection {
+        gap:5%;
+        position:relative;
+        margin-top: 0;
+        margin-bottom: 50vw;
+    }
+    .pers-selectable {
+        position: static;
+        background-color: #ffffff;
+        height: 30px;
+        border: none;
+        border-radius: 30px;
+        width: 20%;
+        margin-bottom: 50px;
+    }
+    .pers-selectable span {
+        display: none !important;
+    }
+    .pers-selected {
+        background-color: #AF8700 !important;
+    }
+    .pers-selected img.no-mobile {
+        display: none !important;
+    }
+    .pers-selected .si-mobile {
+        width:60vw;
+        position: absolute !important;
+        left: 50% !important;
+        top: 50px;
+        transform: translateX(-50%);
+        display: block !important;
+    }
+    .persMain{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+
+}
